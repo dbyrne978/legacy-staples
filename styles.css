@@ -1,5 +1,6 @@
 h1 {
     margin: auto;
+    margin-bottom: 10px;
     width: 50%;
     padding: 10px;
     text-align: center;
@@ -13,13 +14,19 @@ h1 {
     padding: 10px;
     text-align: center;
     border: 3px solid black;
+    list-style-position: inside;
+}
+
+.list-links{
     list-style-type: none;
 }
 
-img {
-    padding: 10px;
-    display: block;
+.card-image-row{
     margin: auto;
+    width: fit-content;
+}
+
+img {
     height: auto;
     width: 250px;
 }
