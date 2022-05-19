@@ -1,20 +1,54 @@
-h1 {
+@font-face {
+    font-family: "BelerenSmallCaps";
+    src: url("fonts/BelerenSmallCaps.ttf");
+  }
+
+@font-face {
+    font-family: "Goudy Mediaeval";
+    src: url("fonts/Goudy Mediaeval.ttf");
+}
+
+@font-face {
+    font-family: "Mplantin";
+    src: url("fonts/Mplantin.ttf");
+}
+
+html {background-color: rgb(197, 183, 165)}
+
+h1{
     margin: auto;
     margin-bottom: 10px;
     width: 50%;
-    padding: 10px;
     text-align: center;
-    border: 3px solid black;
 }
 
+.magic-header{
+    font-family: "BelerenSmallCaps";
+}
+
+.legacy-header{
+    font-family: "Goudy Mediaeval";
+}
+
+.color-overview-text{
+    font-family: "Mplantin";
+}
+
+.top-5-list {
+    font-family: "Goudy Mediaeval";
+}
+
+.color-overview-text,
 .list-links,
 .top-5-list {
     margin: auto;
+    margin-bottom: 20px;
     width: 50%;
     padding: 10px;
     text-align: center;
     border: 3px solid black;
     list-style-position: inside;
+    background-color: rgb(216, 212, 205)
 }
 
 .list-links{
@@ -26,12 +60,7 @@ h1 {
     width: fit-content;
 }
 
-img {
+img{
     height: auto;
     width: 250px;
-}
-
-.color-overview-text{
-    margin: auto;
-    width: 50%;
 }
