@@ -56,11 +56,12 @@ h1{
 }
 
 .card-image-row{
-    margin: auto;
-    width: fit-content;
+    display: flex;
+    justify-content: center;
 }
 
-img{
+.card-image{
+    max-width: 250px;
     height: auto;
-    width: 250px;
+    flex: 1;
 }
